@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Fiche de Renseignement</title>
+</head>
+<body>
+
+	<div class="card">
+	    <div class="coverphoto"></div>
+	    <div class="profile_picture"></div>
+	    <div class="left_col">
+			<div class="text">
+	       		<div class="text2">Etudiant en Informatique au sein de l'ISPM</div>       		
+	     	</div>
+	    </div>
+	    <!-- droite -->
+	    <div class="right_col">
+	      <!-- <h2 class="name">RAMANANTOANINA Dimbisoa Jisia</h2> -->
+	      <div id="effect"></div>
+	      <ul class="contact_information">
+	        <li>ESIIA5</li>
+	        <li>Number:16</li>
+	        <li>dimbisoajisia@gmail.com</li>
+	        <li>033 28 483 33</li>
+	        <li> C1c Ambohitrarahaba</li>
+	      </ul>
+	    </div>
+    </div>
+    <script >
+    	var x=0;
+    	var text= "RAMANANTOANINA Dimbisoa Jisia";
+    	var container= document.getElementById('effect');
+
+    	function animate(){
+    		if(x < text.length){
+    			container.innerHTML += text.charAt(x);
+    			x++;
+    			setTimeout(animate,80);
+    		}
+    	}
+
+    	animate();
+    </script>
+
+</body>
+</html>

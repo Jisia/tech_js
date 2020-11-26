@@ -1,0 +1,95 @@
+
+body{
+  background-image: url('image2.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+
+}
+
+.coverphoto{
+  width:100%;
+  height:160px;
+  background:url('image1.jpg');
+  background-position:center center;
+  background-size:cover;
+  border-bottom:1px solid #ccc;
+  z-index:99;
+}
+
+.profile_picture{
+  width:110px;
+  height:110px;
+  background:rgba(255,255,255,1);
+  position:absolute;
+  top:80px;
+  left:20px;
+  background-image: url('image.jpg');
+  background-size:100% 100%;
+  border-radius:40px;
+  padding:7px;
+  border:1px solid #ccc;
+}
+
+.card{
+  position:relative;
+  height:450px;
+  width:600px;
+  background:red;
+  margin:10% auto;
+  overflow:hidden;
+  z-index:100; 
+  border-radius:20px;
+}
+
+
+.left_col, .right_col{
+  float:left;
+  height:340px;
+}
+.left_col{
+  width:40%;
+  padding-top:85px;
+}
+.right_col{
+  width:60%;
+  border-left:1px solid #ccc;
+  margin-left:-1px;
+}
+
+#effect{
+  font-family: 'Amatic SC', cursive;
+  font-size:30px;
+  font-weight:200;
+  color:#4882ff;
+  padding:0;
+  margin:20px 10px 0px 30px;
+}
+.contact_information{
+  margin-top:20px;
+  padding-left:30px;
+  list-style-type:none;
+}
+.contact_information li{
+  height:20px;
+  width:80%;
+  text-align: center;
+  font-size:18px;
+  color:white;
+  padding:5px 0px;
+  background-size:20px 20px;
+  border-bottom:1px solid rgba(0,0,0,0.1);
+  box-shadow:0px 1px 1px rgba(255,255,255,0.6);
+}
+
+.text{
+  margin:15px 0px 0px 35px;
+  font-weight:300;
+  font-size:16px;
+  color:rgba(30,30,30,1);
+}
+.text2{
+  font-weight:400;
+  font-size:25px;
+  color:rgba(140,140,140,1);
+}
+
